@@ -1,0 +1,31 @@
+{
+  "name": "customergluassg",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakhilR/CustomerGluAssg.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakhilR/CustomerGluAssg/issues"
+  },
+  "homepage": "https://github.com/kakhilR/CustomerGluAssg#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-export-default-from": "^7.22.5",
+    "nodemon": "^3.0.1"
+  }
+}
